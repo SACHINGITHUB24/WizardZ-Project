@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Website using GSAP</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <section class="section1">
+
+        <nav>
+           
+            <h1><i class="ri-shining-2-fill"></i>WizardZ</h1>
+            <div class="part2">
+                <h4>About Us</h4>
+                <h4>Services</h4>
+                <h4>Use Cases</h4>
+                <h4>Pricing</h4>
+                <h4>Blog</h4>
+
+                <button>Request a Quote</button>
+            </div>
+        </nav>
+
+        <div class="center">
+            <div class="centerpart1">
+            <h1>Navigating the didital landscape for success</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim praesentium esse in, tenetur iusto dignissimos delectus, aliquid officiis aut, quidem corrupti ut molestias sint nam suscipit dolore assumenda .
+                
+                <button>Book a Consultation</button>
+            </div>
+            <div class="centerpart2">
+                <img src="https://i.ibb.co/LhxfNwd/imageswiz.png" alt="imageswiz" border="0">
+            </div>
+        </div>
+        <div class="section1bottom">
+            <img src="data:image/jpeg;base64,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" alt="">
+
+            <img src="https://th.bing.com/th/id/OIP.G2EQ9tntbaZotonTdTiTZAHaB0?w=512&h=126&rs=1&pid=ImgDetMain" alt="">
+
+
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIADMArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAABQYEAwIB/9oACAEBAAAAAKYAAAAUa9nLhsCRrpig7izk4ESSja+M3vriYrGcLYyu9riyq+9LJV2haiYvF/xjG7FDVa2b4OPugk6OYaKbaVcddquftoe4kN+DPSTjXj78clb9RW4+/wAmnnZpg14ve7JlaZ8DWLpevHd478MDcAAACIt+eXcAf//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAKAgIQAxAAAAAAAAAAAAAAAAAAAP/EADYQAAICAgECBAMECAcAAAAAAAECAwQABRESIRATMUE1UnEGIHOSFBUWIiQwMoQzNDZCUVRi/9oACAEBAAE/AP51okzMD7ZTfmNlJHbwml8pOrK9tnfocDg/c1d65LehWSd2HhubdqC2EjmdB0ZVdnqwOx5Yxgk+O3llgp9cTlW6xmlsTTwSmWQuQ/jtNq1V/Jh/rz9ZbT/EM0marYy3EcSR908JIIn7uvfHqkfvw8gjIrXXwkg4YZKiyRlTlONSWf3HhZ2sFaXyuC8nhqnSO/C7sAM/Taf/AGYvzZu5YpbYMbhh0DL1ietr9eYZCnKZq5nmoxvI3U5Jzd2p6ywGGUplqV5tFE8h5YyZV2M9WBooR3Z+ecG02kBBkJ+jrlG9Hdi6l7MOzLmzBTYz9Xz5Bdo2owiun4bZDDFAnREoVc2WzFMBEAMpwXdxNy6PKRlDduXENr8+TRRyKS3YgeuCzMF6A3bEkmh9OwPsRkMyyj/gj1GbUkbOcj5xibbZ/KPyZWrvamSJCAWz9n7fzx5cqSU5fKkKk8c9s2nw3XZpvh0X1bPtF/RVyX/T0P4maCvG3mznJoY54njkAIIzSuYtiE+q5e1sF0AseH+YZc09qoC/Z0GaK/K5NaVvblcn/idqyv7zdOIiooVQAoHAGb+FEnikT1cYJXfXVmJ7soymg4L+/OOiupUjKxKWF4zZfFpfxV8NN8Sg8PtD/nx+GMvVnn1FRkHeNAc1u3FSIwyoSmbC6+xmjCRkAdkGGhzqxU/3hM1959dM6uhKns65a30PkkQKxc5oqj9ZtP8ARMu7eeC6ECcImWt5HNXeOOEguM0ELmd5/ZVy2St2cj1ErZDv4ugedE/Xk0s+2uAKuSQolVYh2CKAMgnMJPuDklwFeEUgn3ypEerzCOw9M24aLZSP9GGLvqRUFhIDlfU1a0ySoX5Hhc1da5IJZC4bI0WKNIx6KoAyxp6MxLFCrf8AnK2vqVTzEnf5j4W9fUtd5I+GyPS0Im56S+AAAADgZZqV7Q4mjBwaOgD6OcjRIkCIoVR6AYO+4/ucl02vZyfKwRQ0oT5MQGIXtOqu3YY0ELKAUHbBWgB7L4Wqla2oWWPnF0tFPnP85PjP9z4SgGN/plIDhz97/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAgEBPwAz/8QAFBEBAAAAAAAAAAAAAAAAAAAAUP/aAAgBAwEBPwAz/9k=" alt="">
+
+
+            <img src="https://th.bing.com/th?id=OIP.8oUfTFHoFnV5fj1o1lznnQHaCj&w=350&h=121&c=8&rs=1&qlt=90&o=6&dpr=1.4&pid=3.1&rm=2" alt="">
+            <img src="https://www.bing.com/images/search?view=detailV2&ccid=uEprLXug&id=FD1949D7563B284262E3C2F4B402853F1A59EF54&thid=OIP.uEprLXugXIc__CvsJaWhiAHaCV&mediaurl=https%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f4%2fNetflix-Vector-Logo.png&exph=769&expw=2445&q=netflix+png&simid=608030003977261931&FORM=IRPRST&ck=18819AEC3BCA355438FB219EC78E310A&selectedIndex=31&itb=1" alt="">
+
+
+            <img src="https://th.bing.com/th/id/OIP.M4unrOSg6bURO9hggezEPwHaHa?w=193&h=193&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="">
+
+
+
+
+        </div>
+
+    </section>
+    <section class="section2">
+        <div class="services">
+            <h3>Services</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore vero eveniet eum tempora quibusdam id iure commodi nisi molestiae provident?</p>
+        </div>
+        <div class="container">
+            <div class="elem line1 left">
+             <div class="elem-part1">
+                <h2>Search engine optimization</h2>
+                <h4><i class="ri-arrow-right-up-line"></i>Learn More</h4>
+               
+             </div>
+             <div class="elem-part2">
+                <img src="https://i.ibb.co/LhxfNwd/imageswiz.png" alt="imageswiz" border="0">
+
+             </div>
+            </div>
+            <div class="elem black line1 right">
+             
+                 <div class="elem-partt1">
+                    <h2>Pay per click advertising</h2>
+                    <h4><i class="ri-arrow-right-up-line"></i>Learn More</h4>
+                   
+                 </div>
+                 <div class="elem-part2">
+                    <img src="https://i.ibb.co/LhxfNwd/imageswiz.png" alt="imageswiz" border="0">
+    
+                 </div>
+            </div>
+            <div class="elem black line2 left">
+               
+                <div class="elem-partt1">
+                    <h2>Social media marketing</h2>
+                    <h4><i class="ri-arrow-right-up-line"></i>Learn More</h4>
+                   
+                 </div>
+                 <div class="elem-part2">
+                    <img src="https://i.ibb.co/LhxfNwd/imageswiz.png" alt="imageswiz" border="0">
+    
+                 </div>
+            </div>
+            <div class="elem line2 right">
+            
+             <div class="elem-part1">
+                <h2>   E-mail marketing</h2>
+                <h4><i class="ri-arrow-right-up-line"></i>Learn More</h4>
+               
+             </div>
+             <div class="elem-part2">
+                <img src="https://i.ibb.co/LhxfNwd/imageswiz.png" alt="imageswiz" border="0">
+
+             </div>
+            </div>
+        </div>
+
+        <section class="section3">
+            <div class="section3diiv">
+            <h3>Let's make things happen</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum <br>aperiam temporibus asperiores ipsam deserunt dolorem a id placeat <br> voluptatem?</p>
+
+            <button>Get your free proposal</button>
+        </div>
+        <div class="section3img">
+            <img src="https://i.ibb.co/LhxfNwd/imageswiz.png" alt="imageswiz" border="0">
+            
+        </div>
+        </section>
+
+        <section class="section4">
+            <div class="case">
+            <h3>Case study</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est laborum quaerat velit sit fugiat maxime </p>
+            <p class="pdel">delectus nisi reiciendis repellat.</p>
+        </div>
+
+        <div class="boxcase">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est maiores aperiam facere voluptas voluptatem vel animi ipsam dolores eaque.</p>
+            <h2><i class="ri-arrow-right-up-line"></i>Learn more</h2>
+            <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est maiores aperiam facere voluptas voluptatem vel animi ipsam dolores eaque.</p>
+            <h2 class="loremclass"><i class="ri-arrow-right-up-line"></i>Learn more</h2>
+            <p class="lorem2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est maiores aperiam facere voluptas voluptatem vel animi ipsam dolores eaque.</p>
+            <h2 class="loremclass2"><i class="ri-arrow-right-up-line"></i>Learn more</h2>
+            
+            
+        </div>
+
+
+     
+
+        </section>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script8.js"></script>
+</body>
+</html>
